@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josemar Rocha Portifolio WebSite</title>
+    <!-- css normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;900&family=Source+Sans+Pro:wght@300;400;900&display=swap"
+        rel="stylesheet">
+    <!-- css proprio -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="log">
+            <img src="img/jukkadev.png" alt="logo">
+        </div>
+
+        
+
+        <button class="nav-toggle" aria-label="taggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link menu">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link menu">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link menu">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link menu">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <audio controls="" autoplays="" style="width:300px;" class="musicplayer">
+        <source src="musicas/darudesandstorm.mp3">
+    </audio>
+
+    <!-- intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Josemar Rock</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Full-time Miller Hater</p>
+        <img src="img/jukpfp.png" alt="foto-jane1" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design</h3>
+                <p>Yes.</p>
+            </div> <!-- / service-->
+            <div class="service">
+                <h3>Is your business...legal?</h3>
+                <p>No.</p>
+            </div> <!-- / service-->
+            <div class="service">
+                <h3>Can you maybe kill or hurt someone?</h3>
+                <p>Yes.</p>
+            </div> <!-- / service-->
+        </div> <!-- / services-->
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About-me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer, developer & novice 3d modeller based in Latvia.</p>
+        <div class="about-me__body">
+            <p>I can design your website, app and maybe kill your neighbor while I'm at it :D</p>
+            <p>Have you ever felt any regret about life? Don't worry, I can fix it for you, just give me a name and your "problem" WILL be gone. I'm here to help you become the best version of yourself.</p>
+        </div>
+        <img src="img/dev-jane-02-alt.jpg" alt="foto-jane2" class="about-me__img">
+    </section>
+
+    <!-- My-Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of "work"</p>
+        <div class="portifolio">
+            <!-- Portifolio 01 -->
+            <a href="#" class="portifolio__item">
+                <img src="img/portfolio-01-alt.jpg" alt="" class="portifolio__img">
+            </a>
+
+            <!-- Portifolio 02 -->
+            <a href="#" class="portifolio__item">
+                <img src="img/portfolio-02-alt.jpg" alt="" class="portifolio__img">
+            </a>
+            <!-- Portifolio 03 -->
+            <a href="#" class="portifolio__item">
+                <img src="img/portfolio-03-alt.jpg" alt="" class="portifolio__img">
+            </a>
+            <!-- Portifolio 04 -->
+            <a href="#" class="portifolio__item">
+                <img src="img/portfolio-04-alt.jpg" alt="" class="portifolio__img">
+            </a>
+            <!-- Portifolio 05 -->
+            <a href="#" class="portifolio__item">
+                <img src="img/portfolio-05-alt.jpg" alt="" class="portifolio__img">
+            </a>
+            <!-- Portifolio 06 -->
+            <a href="#" class="portifolio__item">
+                <img src="img/portfolio-06-alt.jpg" alt="" class="portifolio__img">
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer" >
+        <a href="mailto:josemarrochads@gmail.com" class="footer-link">josemarrochads@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.artstation.com/wydre" class="social-list__link" target="_blank"><i class="fab fa-artstation"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/JosemarRocha" class="social-list__link" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://twitter.com/JukksRocha" class="social-list__link" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/jukka_rocha/" class="social-list__link" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
